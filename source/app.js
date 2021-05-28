@@ -69,6 +69,6 @@ app.get('*',(req,res)=>{
                 errorMessage : 'page not found'
         })
 })
-app.listen(3000, () => {
-        console.log('server is up on port 3000')
+app.listen(port, () => {
+        console.log('server is up on port '+ port)
 })
